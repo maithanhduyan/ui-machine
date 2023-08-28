@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Washing Machine Interface</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Washing Machine Interface</h1>
+        <div class="mode-buttons">
+            <button class="mode-button" data-mode="gentle">Gentle Wash</button>
+            <button class="mode-button" data-mode="normal">Normal Wash</button>
+            <button class="mode-button" data-mode="intense">Intense Wash</button>
+        </div>
+        <div class="power-wrapper">
+            <button id="power-button" class="power-off">
+                <span class="power-light"></span>
+                Power
+            </button>
+        </div>
+        <button id="start-button">Start Washing</button>
+        <div id="status"></div>
+        <div id="water-level">Water Level: <span id="current-water-level">0</span>%</div>
+    </div>
+</body>
+
+</html>
