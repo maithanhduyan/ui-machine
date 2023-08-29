@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Scanner and Billing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scanner-container">
+        <video id="scanner" autoplay></video>
+        <div id="results" class="results"></div>
+    </div>
+    <div class="billing-container">
+        <h2>Billing</h2>
+        <ul id="billing-list"></ul>
+        <p>Total: <span id="total-amount">$0.00</span></p>
+    </div>
+    <script src="quagga.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
